@@ -7,4 +7,8 @@
            remote="stormbreaker-project"
            sync-j="4" />
 
+  <remote  name="stormbreaker-infrastructure"
+           revision="main"
+           fetch="https://github.com/StormBreaker-Infrastructure" />
+
 </manifest>
