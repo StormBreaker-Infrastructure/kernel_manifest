@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="stormbreaker-project"
+           fetch="https://github.com/stormbreaker-project" />
+  <default revision="main"
+           remote="stormbreaker-project"
+           sync-j="4" />
+
+</manifest>
