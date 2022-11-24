@@ -8,6 +8,7 @@
            sync-j="4" />
 
   <remote  name="stormbreaker-project-gl"
+           clone-depth="1"
            revision="main"
            fetch="https://gitlab.com/stormbreaker-project" />
 
