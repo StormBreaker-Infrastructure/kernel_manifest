@@ -7,10 +7,23 @@
            remote="stormbreaker-project"
            sync-j="4" />
 
+  <remote  name="stormbreaker-project-gl"
+           revision="main"
+           fetch="https://gitlab.com/stormbreaker-project" />
+
   <remote  name="stormbreaker-infrastructure"
            revision="main"
            fetch="https://github.com/StormBreaker-Infrastructure" />
 
+  <!-- build -->
   <project path="build" name="kernel_build" remote="stormbreaker-infrastructure" />
+
+  <!-- prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-15" name="google-clang" remote="stormbreaker-project-gl" revision="15.x" />
+  <project path="prebuilts/clang/host/linux-x86/clang-14" name="google-clang" remote="stormbreaker-project-gl" revision="14.x" />
+  <project path="prebuilts/clang/host/linux-x86/clang-13" name="google-clang" remote="stormbreaker-project-gl" revision="13.x" />
+  <project path="prebuilts/clang/host/linux-x86/clang-12" name="google-clang" remote="stormbreaker-project-gl" revision="12.x" />
+  <project path="prebuilts/clang/host/linux-x86/clang-11" name="google-clang" remote="stormbreaker-project-gl" revision="11.x" />
+  <project path="prebuilts/clang/host/linux-x86/clang-10" name="google-clang" remote="stormbreaker-project-gl" revision="10.x" />
 
 </manifest>
