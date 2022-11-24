@@ -11,4 +11,6 @@
            revision="main"
            fetch="https://github.com/StormBreaker-Infrastructure" />
 
+  <project path="build" name="kernel_build" remote="stormbreaker-infrastructure" />
+
 </manifest>
