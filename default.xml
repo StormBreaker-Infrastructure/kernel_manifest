@@ -16,6 +16,10 @@
            revision="main"
            fetch="https://github.com/StormBreaker-Infrastructure" />
 
+  <remote  name="stormbreaker-devices"
+           revision="main"
+           fetch="https://github.com/StormBreaker-Devices" />
+
   <!-- build -->
   <project path="build" name="kernel_build" remote="stormbreaker-infrastructure" />
 
