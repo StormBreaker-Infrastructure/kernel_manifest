@@ -33,5 +33,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-12" name="google-clang" remote="stormbreaker-project-gl" revision="12.x" />
   <project path="prebuilts/clang/host/linux-x86/clang-11" name="google-clang" remote="stormbreaker-project-gl" revision="11.x" />
   <project path="prebuilts/clang/host/linux-x86/clang-10" name="google-clang" remote="stormbreaker-project-gl" revision="10.x" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="stormbreaker-project" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="stormbreaker-project" />
 
 </manifest>
