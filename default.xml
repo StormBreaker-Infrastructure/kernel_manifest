@@ -23,6 +23,9 @@
   <!-- build -->
   <project path="build" name="kernel_build" remote="stormbreaker-infrastructure" />
 
+  <!-- devices -->
+  <project path="device/asus/X00P" name="kernel_device_asus_X00P" remote="stormbreaker-devices" />
+
   <!-- prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-15" name="google-clang" remote="stormbreaker-project-gl" revision="15.x" />
   <project path="prebuilts/clang/host/linux-x86/clang-14" name="google-clang" remote="stormbreaker-project-gl" revision="14.x" />
