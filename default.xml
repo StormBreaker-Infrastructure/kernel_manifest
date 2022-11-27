@@ -8,7 +8,7 @@
            sync-j="4" />
 
   <remote  name="aosp"
-           revision="master"
+           revision="refs/heads/master"
            fetch="https://android.googlesource.com/" />
 
   <remote  name="stormbreaker-project-gl"
