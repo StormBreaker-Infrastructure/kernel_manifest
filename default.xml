@@ -30,6 +30,9 @@
   <!-- devices -->
   <project path="device/asus/X00P" name="kernel_device_asus_X00P" remote="stormbreaker-devices" />
 
+  <!-- System -->
+  <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
+
   <!-- prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-15" name="google-clang" remote="stormbreaker-project-gl" revision="15.x" />
   <project path="prebuilts/clang/host/linux-x86/clang-14" name="google-clang" remote="stormbreaker-project-gl" revision="14.x" />
