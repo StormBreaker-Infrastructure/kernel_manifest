@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="aosp"
+           revision="master"
+           fetch="https://android.googlesource.com/" />
+
   <remote  name="stormbreaker-project"
            fetch="https://github.com/stormbreaker-project" />
   <default revision="main"
